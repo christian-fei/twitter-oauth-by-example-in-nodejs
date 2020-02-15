@@ -26,3 +26,5 @@ oauth1 response {"id":2244994945,"id_str":"2244994945","name":"Twitter Dev","scr
 oauth2 response {"id":2244994945,"id_str":"2244994945","name":"Twitter Dev","screen_name":"TwitterDev","location":"1...
 
 ```
+
+[check out the source code](https://github.com/christian-fei/twitter-oauth-by-example-in-nodejs/blob/3cc955672d598ce1f25591b23b892b19cfde5b2a/index.js) and [step by step explanation on christianfei.com](https://christianfei.com/posts/2020-02-15-Twitter-OAuth-by-example-in-Nodejs/)
