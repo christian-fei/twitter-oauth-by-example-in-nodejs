@@ -38,7 +38,7 @@ async function getTwitterUserProfileWithOAuth1 (username = 'twitterdev') {
   return JSON.parse(body)
 }
 
-async function getTwitterUserProfileWithOAuth2 (username = 'twitterdev', port = 3000) {
+async function getTwitterUserProfileWithOAuth2 (username = 'twitterdev') {
   var oauth2 = new OAuth.OAuth2(
     process.env.TWITTER_CONSUMER_KEY,
     process.env.TWITTER_CONSUMER_SECRET,
