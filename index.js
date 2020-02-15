@@ -51,6 +51,6 @@ async function getTwitterUserProfileWithOAuth2 (username = 'twitterdev') {
     headers: {
       Authorization: `Bearer ${accessToken}`
     }
-  }, { json: true })
+  })
     .then((res) => JSON.parse(res.body))
 }
