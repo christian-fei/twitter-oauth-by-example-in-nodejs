@@ -1,5 +1,5 @@
 {
-  "name": "twitter-oauth-by-example",
+  "name": "twitter-oauth-by-example-in-nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christian-fei/twitter-oauth-by-example.git"
+    "url": "git+https://github.com/christian-fei/twitter-oauth-by-example-in-nodejs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/christian-fei/twitter-oauth-by-example/issues"
+    "url": "https://github.com/christian-fei/twitter-oauth-by-example-in-nodejs/issues"
   },
-  "homepage": "https://github.com/christian-fei/twitter-oauth-by-example#readme",
+  "homepage": "https://github.com/christian-fei/twitter-oauth-by-example-in-nodejs#readme",
   "dependencies": {
     "got": "^10.5.5",
     "oauth": "^0.9.15"
