@@ -4,14 +4,14 @@ const OAuth = require('oauth')
 const { promisify } = require('util')
 
 if (require.main === module) {
-  getTwitterUserProfile('twitterdev')
+  getTwitterUserProfileWithOAuth1('twitterdev')
     .then((profile) => console.log(JSON.stringify(profile, null, 2)) && process.exit(0))
     .catch(err => console.error(err) && process.exit(1))
 } else {
-  module.exports = { getTwitterUserProfile }
+  module.exports = { getTwitterUserProfileWithOAuth1 }
 }
 
-async function getTwitterUserProfile (username = 'twitterdev') {
+async function getTwitterUserProfileWithOAuth1 (username = 'twitterdev') {
   var oauth = new OAuth.OAuth(
     'https://api.twitter.com/oauth/request_token',
     'https://api.twitter.com/oauth/access_token',
