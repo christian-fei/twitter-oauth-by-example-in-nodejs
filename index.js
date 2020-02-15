@@ -8,7 +8,9 @@ if (require.main === module) {
     .then((profile) => console.log(JSON.stringify(profile, null, 2)) && process.exit(0))
     .catch(err => console.error(err) && process.exit(1))
 } else {
-  module.exports = { getTwitterUserProfileWithOAuth1 }
+  module.exports = {
+    getTwitterUserProfileWithOAuth1
+  }
 }
 
 async function getTwitterUserProfileWithOAuth1 (username = 'twitterdev') {
